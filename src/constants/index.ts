@@ -1,4 +1,4 @@
-export const BASE_URL_STABLE = "https://stablehorde.net";
+export const BASE_URL_STABLE = "https://horde.koboldai.net";
 export const BASE_URL_DEV = "https://dev.stablehorde.net";
 export const BASE_URL_RATING = "https://ratings.aihorde.net";
 export const MODELS_DB_URL = "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/stable_diffusion.json";
