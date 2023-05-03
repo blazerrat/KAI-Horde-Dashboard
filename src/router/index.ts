@@ -10,7 +10,8 @@ const router = createRouter({
         //     component: GenerateView,
         // },
         {
-            path: "/dashboard",
+        //     path: "/dashboard",
+            path: "/",
             name: "dashboard",
             // route level code-splitting
             // this generates a separate chunk (About.[hash].js) for this route
