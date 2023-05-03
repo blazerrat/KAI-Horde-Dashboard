@@ -49,14 +49,14 @@ watch(
         >
             <el-menu-item class="remove-item-styling center-vertical" v-if="!isMobile">
                 <template #title>
-                    <div style="font-size: 20px;">Stable Horde</div>
+                    <div style="font-size: 20px;">KAI Horde</div>
                 </template>
             </el-menu-item>
             <MainMenuItem :isMobile="isMobile" index="/dashboard">
                 <template #icon><el-icon><home-filled /></el-icon></template>
                 <template #title>Dashboard</template>
             </MainMenuItem>
-            <MainMenuItem :isMobile="isMobile" index="/">
+            <!-- <MainMenuItem :isMobile="isMobile" index="/">
                 <template #icon>
                     <div class="generator-icons">
                         <el-icon><operation /></el-icon>
@@ -64,11 +64,11 @@ watch(
                     </div>
                 </template>
                 <template #title>Generate</template>
-            </MainMenuItem>
+            </MainMenuItem> 
             <MainMenuItem :isMobile="isMobile" index="/images" >
                 <template #icon><el-icon><icon-menu /></el-icon></template>
-                <template #title>Images</template>
-            </MainMenuItem>
+                <template #title>Images</template> 
+            </MainMenuItem> -->
             <MainMenuItem :isMobile="isMobile" index="/workers">
                 <template #icon><el-icon><user /></el-icon></template>
                 <template #title>Workers</template>
